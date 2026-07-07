@@ -2,8 +2,8 @@
 > **Lead Architect & Developer:** Aryan ([@thatonearyan](https://t.me/thatonearyan))  
 > **System Identity:** ˹ 𝗔 𝗥 𝗬 𝗔 𝗡 ˼  
 
-Active Pack Registries (9 packs indexed).
+Active Inventory: 1,000+ Telegram Custom Emojis (10 packs indexed).
 
 ```python
-from custom_emojis import custom_tag
+from custom_emojis import custom_tag, premiumize_text, styled_btn
 ```
