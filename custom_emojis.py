@@ -2748,5 +2748,40 @@ def custom_tag(symbol_or_name: str, fallback: str = "🔥") -> str:
             return fallback or symbol_or_name
     return f'<tg-emoji emoji-id="{eid}">{fallback}</tg-emoji>'
 
-def styled_btn(text: str, **kwargs) -> InlineKeyboardButton:
-    return InlineKeyboardButton(text=text, **kwargs)
+def styled_btn(
+    text: str,
+    callback_data: Optional[str] = None,
+    url: Optional[str] = None,
+    web_app_url: Optional[str] = None,
+    style: str = "primary",
+    icon: Optional[str] = None,
+    icon_id: Optional[str] = None
+) -> InlineKeyboardButton:
+    """
+    Creates an ultra-luxury modern Telegram button equipped with native animated
+    custom sticker icon (icon_custom_emoji_id) and visual style colors.
+    
+    Automatically strips leading unicode emojis from the button label if an animated
+    icon is supplied to prevent clumsy double-emoji rendering.
+    """
+    chosen_icon_id = icon_id
+    if not chosen_icon_id and icon:
+        chosen_icon_id = get_custom_emoji_id(icon)
+
+    clean_text = text
+    if chosen_icon_id:
+        clean_text = _EMOJI_PREFIX_REGEX.sub("", text).strip() or text
+
+    kwargs = {"text": clean_text}
+    if callback_data:
+        kwargs["callback_data"] = callback_data
+    if web_app_url:
+        kwargs["web_app"] = WebAppInfo(url=web_app_url)
+    elif url:
+        kwargs["url"] = url
+    if chosen_icon_id:
+        kwargs["icon_custom_emoji_id"] = str(chosen_icon_id)
+    if style:
+        kwargs["style"] = style
+
+    return InlineKeyboardButton(**kwargs)
