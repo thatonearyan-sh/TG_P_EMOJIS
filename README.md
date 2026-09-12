@@ -39,7 +39,7 @@ Whenever you start a new bot or modify an existing project, simply import from o
 
 ```text
 CUSTOM EMOJIS/
-├── custom_emojis.py          # Master Python module
+├── custom_emojis.py          # Master Python module (Engine, lookups, button constructors)
 ├── __init__.py               # Python package export (allows 'import custom_emojis')
 ├── named_emoji_registry.json # Machine-readable JSON dictionary of all 1,316 items
 ├── ALL_NAMED_EMOJIS.txt      # Human-readable full inventory with IDs, icons & 1-line gaps
