@@ -1486,5 +1486,8 @@
     "1": "COIN_GOLD",
     "2": "COIN_SILVER",
     "3": "COIN_BRONZE"
+  },
+  "Verified Badges": {
+    "1": "TELEGRAM_VERIFIED"
   }
 }

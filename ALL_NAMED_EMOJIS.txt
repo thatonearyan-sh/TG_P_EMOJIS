@@ -2973,3 +2973,9 @@
 2) 🪙 [5224415201155096344] — COIN_SILVER (Metallic Silver Coin / Medal #2)
 
 3) 🪙 [5222354604695494636] — COIN_BRONZE (Metallic Bronze Coin / Medal #3)
+
+# ==============================================================================
+# 📦 PACK: Verified Badges (1 item)
+# ==============================================================================
+
+1) ✅️ [5197557379083804570] — TELEGRAM_VERIFIED (Official Telegram 8-Point Scalloped Blue Checkmark Badge)

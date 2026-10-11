@@ -1,7 +1,7 @@
 # 💎 KRONOS UNIVERSAL CUSTOM EMOJI SYSTEM (1.3K+ ASSETS)
 > **Lead Architect & Developer:** Aryan ([@thatonearyan](https://t.me/thatonearyan))  
 > **System Identity:** ˹ 𝗔 𝗥 𝗬 𝗔 𝗡 ˼  
-> **Active Inventory:** 1,458 High-Definition Telegram Animated Custom Emojis | 1,640 Named Semantic Tokens  
+> **Active Inventory:** 1,459 High-Definition Telegram Animated Custom Emojis | 1,645 Named Semantic Tokens  
 > **Universal Module Location:** `/Users/aryan/Desktop/CUSTOM EMOJIS/`
 
 ---
@@ -345,7 +345,8 @@ Whenever you find a new Telegram sticker pack or custom emoji set:
 | 13 | **Modern Tech & Social Brands** | 115 | 📱 | Official brand logos: Instagram (#86), WhatsApp (#50), Telegram (#40), Facebook (#80), TikTok (#94), Twitter (#99), Google (#66), YouTube (#110), Netflix (#108), Amazon (#54), Apple (#4), Discord (#41), Spotify (#103), PayPal (#61) |
 | 14 | **Emoji Words** | 24 | 🔴 | High-contrast bold red typography words: YES, NO, OK, NOPE, WHAT, WHERE, WHEN, WHY, HOW, NEW, COOL, WAIT, SCAM, BAD, WHO, REAL, FAKE, GOOD, YOU, TOP, SOON, STOP, IDK, LOL |
 | 15 | **Medal Coins (Gold/Silver/Bronze)** | 3 | 🪙 | Metallic 3D engraved coins and podium medals: Gold (#1), Silver (#2), Bronze (#3) |
-| 🏆 | **TOTAL** | **1,458** | — | **1,640 Named Tokens Available Across All Engines** |
+| 16 | **Verified Badges** | 1 | ✅ | Official Telegram blue scalloped 8-point star verification checkmark badge (`5197557379083804570`) |
+| 🏆 | **TOTAL** | **1,459** | — | **1,645 Named Tokens Available Across All Engines** |
 
 ---
 

@@ -15,6 +15,11 @@ from aiogram.types import InlineKeyboardButton, WebAppInfo
 # 🎮 MASTER NAMED ICONS FOR BUTTONS & HEADERS (icon_custom_emoji_id)
 # ==============================================================================
 EMOJI_ICONS: dict[str, str] = {
+    "VERIFIED": "5197557379083804570",
+    "TELEGRAM_VERIFIED": "5197557379083804570",
+    "VERIFIED_BADGE": "5197557379083804570",
+    "BLUE_VERIFIED": "5197557379083804570",
+    "CHECKMARK_BLUE": "5197557379083804570",
     "WORD_YES": "5240121033268141502",
     "YES": "5240121033268141502",
     "WORD_NO": "5242666922377485787",
