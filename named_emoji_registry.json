@@ -1455,5 +1455,36 @@
     "113": "BRAND_WINAMP",
     "114": "BRAND_RECYCLE",
     "115": "BRAND_OBSIDIAN_SQUARE"
+  },
+  "Emoji Words": {
+    "1": "WORD_YES",
+    "2": "WORD_NO",
+    "3": "WORD_OK",
+    "4": "WORD_NOPE",
+    "5": "WORD_WHAT",
+    "6": "WORD_WHERE",
+    "7": "WORD_WHEN",
+    "8": "WORD_WHY",
+    "9": "WORD_HOW",
+    "10": "WORD_NEW",
+    "11": "WORD_COOL",
+    "12": "WORD_WAIT",
+    "13": "WORD_SCAM",
+    "14": "WORD_BAD",
+    "15": "WORD_WHO",
+    "16": "WORD_REAL",
+    "17": "WORD_FAKE",
+    "18": "WORD_GOOD",
+    "19": "WORD_YOU",
+    "20": "WORD_TOP",
+    "21": "WORD_SOON",
+    "22": "WORD_STOP",
+    "23": "WORD_IDK",
+    "24": "WORD_LOL"
+  },
+  "Medal Coins": {
+    "1": "COIN_GOLD",
+    "2": "COIN_SILVER",
+    "3": "COIN_BRONZE"
   }
 }

@@ -2911,3 +2911,65 @@
 114) ♻️ [5415943997795369742] — BRAND_RECYCLE (Recycle Arrows)
 
 115) 🧠 [5417987964141600373] — BRAND_OBSIDIAN_SQUARE (Obsidian Square)
+
+# ==============================================================================
+# 📦 PACK: Emoji Words (24 items)
+# ==============================================================================
+
+1) 👍 [5240121033268141502] — WORD_YES (Red Bold Word: YES)
+
+2) 👎 [5242666922377485787] — WORD_NO (Red Bold Word: NO)
+
+3) 🆗 [5240141515967176083] — WORD_OK (Red Bold Word: OK)
+
+4) 👎 [5239998880103276197] — WORD_NOPE (Red Bold Word: NOPE)
+
+5) 😳 [5240065684024598750] — WORD_WHAT (Red Bold Word: WHAT)
+
+6) 🗺 [5240209758702543725] — WORD_WHERE (Red Bold Word: WHERE)
+
+7) ⏰ [5240178315246968728] — WORD_WHEN (Red Bold Word: WHEN)
+
+8) 🤔 [5239988408973008416] — WORD_WHY (Red Bold Word: WHY)
+
+9) 🤔 [5240325220308360763] — WORD_HOW (Red Bold Word: HOW)
+
+10) 🆕 [5240029404435849168] — WORD_NEW (Red Bold Word: NEW)
+
+11) 🆒 [5242219373900340944] — WORD_COOL (Red Bold Word: COOL)
+
+12) 🤚 [5260313693161266722] — WORD_WAIT (Red Bold Word: WAIT)
+
+13) ⚠️ [5262617779906814358] — WORD_SCAM (Red Bold Word: SCAM)
+
+14) 👎 [5262778519057867659] — WORD_BAD (Red Bold Word: BAD)
+
+15) 🤔 [5262684656842579937] — WORD_WHO (Red Bold Word: WHO)
+
+16) 😳 [5262819192398161235] — WORD_REAL (Red Bold Word: REAL)
+
+17) ⚠️ [5260441575812504876] — WORD_FAKE (Red Bold Word: FAKE)
+
+18) 👍 [5260685345271325056] — WORD_GOOD (Red Bold Word: GOOD)
+
+19) 🫵 [5262982066147958303] — WORD_YOU (Red Bold Word: YOU)
+
+20) 🔝 [5260347739367021645] — WORD_TOP (Red Bold Word: TOP)
+
+21) 🔜 [5262720829057148692] — WORD_SOON (Red Bold Word: SOON)
+
+22) 🛑 [5262989066944650934] — WORD_STOP (Red Bold Word: STOP)
+
+23) 🤷 [5260215901050905262] — WORD_IDK (Red Bold Word: IDK)
+
+24) 🤣 [5262524368663093318] — WORD_LOL (Red Bold Word: LOL)
+
+# ==============================================================================
+# 📦 PACK: Medal Coins (3 items)
+# ==============================================================================
+
+1) 🪙 [5222076166260660756] — COIN_GOLD (Metallic Gold Coin / Medal #1)
+
+2) 🪙 [5224415201155096344] — COIN_SILVER (Metallic Silver Coin / Medal #2)
+
+3) 🪙 [5222354604695494636] — COIN_BRONZE (Metallic Bronze Coin / Medal #3)
