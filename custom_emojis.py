@@ -83,8 +83,13 @@ EMOJI_ICONS: dict[str, str] = {
     "APP_STORE": "5418188307186093821",
     "BRAND_LEAGUE_OF_LEGENDS": "5415901846986327133",
     "LEAGUE_OF_LEGENDS": "5415901846986327133",
-    "BRAND_APPLE": "5415815556798382574",
-    "APPLE": "5415815556798382574",
+    "BRAND_APPLE": "5418188307186093821",
+    "APPLE": "5418188307186093821",
+    "APPLE_STORE": "5418188307186093821",
+    "APPLE_LOGO": "5415815556798382574",
+    "FLIPKART": "5415854890108880436",
+    "MEESHO": "5415761319951373207",
+    "PACKAGE": "5415854890108880436",
     "BRAND_MAIL": "5415809492304564410",
     "MAIL": "5415809492304564410",
     "BRAND_PHONE": "5415856569441093255",
@@ -884,7 +889,7 @@ EMOJI_ICONS: dict[str, str] = {
     "EDU_WAVE": "5217830011268017752",
     "EDU_WHITEOUT": "5215336692558375452",
     "EDU_WISE_OWL": "5215526663256842990",
-    "FACEBOOK": "5296533616224906961",
+    "FACEBOOK": "5418381898541990613",
     "FIRE": "6129792056589031358",
     "GIFT": "5409029744693897259",
     "GLOBE": "5224450179368767019",
@@ -3717,6 +3722,9 @@ def styled_btn(
     clean_text = text
     if chosen_icon_id:
         clean_text = _EMOJI_PREFIX_REGEX.sub("", text).strip() or text
+        # Also strip any leading/trailing normal arrows, guillemets, or decorations (e.g. «, », ‹, ›, ◀, ▶, ◄, ►, ←, →, 🔙, 🔝, etc.)
+        clean_text = re.sub(r'^[\s\«\»\‹\›\◀\▶\◄\►\←\→\🔙\🔜\🔝\🔚\⭐\🔍\📂\❌\🔄\⚡\•\-\—\–\|]+|[\s\«\»\‹\›\◀\▶\◄\►\←\→\🔙\🔜\🔝\🔚\⭐\🔍\📂\❌\🔄\⚡\•\-\—\–\|]+$', '', clean_text).strip()
+        clean_text = re.sub(r'\s+', ' ', clean_text).strip() or text
 
     kwargs = {"text": clean_text}
     if callback_data:
